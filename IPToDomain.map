@@ -1,0 +1,9 @@
+
+our %ipsubnet_to_domain = (
+    '10.0.0.0/8' => 'Private10',
+    '172.16.0.0/12' => 'Private172',
+    '192.168.0.0/16' => 'Private192',
+    '224.0.0.0/5' => 'Multicast',
+    '127.0.0.0/8' => 'Loopback',
+    '255.255.255.255' => 'Broadcast',
+);
